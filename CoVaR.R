@@ -35,8 +35,8 @@ CoVaR <- function(y,x,par,par2,dof,gamma,
          gauss = as.matrix(qnorm(alpha)),
          tskew = skewtdis_inv(alpha,nu=dof,lambda=gamma)
          )
-
-  CoVaR=cond.mean+cond.sigma*perc
+  CoVaR=NULL
+  CoVaR=cond.mean+cond.sigma*as.numeric(perc)
   colnames(CoVaR)<-"CoVaR"
   list(CoVaR=CoVaR,perc=perc,alpha=alpha)
 }
