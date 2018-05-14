@@ -1,5 +1,11 @@
 # RCoVaRCopula
-data(Data_demo)
+load("Data_demo.Rdata")
+source("CoVaR.R")
+source("DynCopulaCoVaR.R")
+source("DynCopulaCoVaRUpper.R")
+source("skewtdis_inv.R")
+require("pracma")
+require("copula")
 
 # CoVaR Downside
 
