@@ -1,6 +1,6 @@
 # CoVaR value evaluting at quantile CoVaR and quantile VaR.
 
-# description
+# Description
 Calculate the conditional quantile or CoVaR with different type of Copula and marginal distribution. In this package several bivariate copula families are included for bivariate analysis.
 It provides functionality of elliptical (Gaussian and Student t) as well as Archimedean (Clayton, Gumbel, Frank, Plackett, BB1, SCJ, rotated clayton and rotated Gumbel) copulas to cover a large bandwidth of possible dependence structures.
 
