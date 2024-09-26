@@ -1,4 +1,4 @@
-# CoVaR value evaluting at quantile CoVaR and quantile VaR.
+# CoVaR value evaluating at quantile CoVaR and quantile VaR.
 
 # Description
 Calculate the conditional quantile or CoVaR with different type of Copula and marginal distribution. In this package several bivariate copula families are included for bivariate analysis.
